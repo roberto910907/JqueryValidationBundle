@@ -6,19 +6,19 @@
     "require": {
         "php": "^7.2.5",
         "symfony/framework-bundle": "4.4.*",
-        "symfony/dependency-injection": "^5.1",
+        "symfony/dependency-injection": "4.4.*|dev-master",
         "symfony/form": "4.4.*",
         "symfony/validator": "4.4.*",
-        "symfony/twig-bundle": "^4.4|^5.0",
-        "symfony/twig-bridge": "~2.3|~3.0",
+        "symfony/twig-pack": "^1.0",
+        "symfony/twig-bridge":" ~2.3|~3.0|4.4.*",
         "doctrine/collections": "~1.0"
     },
     "require-dev": {
-        "symfony/browser-kit": "^4.4|^5.0",
-        "symfony/dom-crawler": "^4.4|^5.0",
-        "symfony/finder": "^4.4|^5.0",
-        "symfony/yaml": "^4.4|^5.0",
-        "symfony/css-selector": "^4.4|^5.0",
+        "symfony/browser-kit": "4.4.*",
+        "symfony/dom-crawler": "4.4.*",
+        "symfony/finder": "~2.3|~3.0|4.4.*",
+        "symfony/yaml": "~2.3|~3.0|4.4.*",
+        "symfony/css-selector": "~2.3|~3.0",
 
         "phpunit/phpunit": "~4.7@stable",
         "symfony/phpunit-bridge": "~2.7@stable",
@@ -37,7 +37,7 @@
         },
         {
             "name": "Juan Miguel Leal",
-            "email": "jmleal1990@gmail.com"
+            "email": "jmleal2010@gmail.com"
         }
     ],
     "autoload": {
